@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navrang</title>
+
+    <!-- swiper js link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+    <!-- main css link -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- header start -->
+
+    <header class="header">
+
+        <!-- <a href="#" class="logo"><img src="img/logo.png" alt=""></a> -->
+        <a href="#" class="logo">
+            <h3>NAVRANG</h3>
+            <p>Paan Palce</p>
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#home">About us </a>
+            <a href="#products">Product</a>
+            <a href="#home">contact us</a>
+            <a href="#home">Franchise</a>
+
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="./img/cart/Masala paan.jpg" alt="">
+                <div class="content">
+                    <h3>Masala Paan</h3>
+                    <span class="price">$25/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="./img/cart/Sada paan.jpg" alt="">
+                <div class="content">
+                    <h3>Sada Paan</h3>
+                    <span class="price">$30/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="./img/cart/tobacco paan.jpg" alt="">
+                <div class="content">
+                    <h3>Tobaco Paan</h3>
+                    <span class="price">$35/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total">Total : $90/ -</div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>Login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>Forget your password <a href="#">click here</a></p>
+            <p>Don't have an account <a href="#">create now</a></p>
+
+            <input type="submit" value="Login now" class="btn">
+        </form>
+
+    </header>
+    <!-- header end -->
+
+
+
+    <!-- home section start -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Fresh and <span>tasty</span> Paan's for you</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet maxime aliquid delectus alias quisquam
+                dicta?</p>
+            <a href="#" class="btn">Buy now</a>
+        </div>
+
+
+    </section>
+    <!-- home section end -->
+
+    <!-- features section start -->
+
+    <section class="features" id="features">
+        <h1 class="heading"> Our <span>Features</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./img/cart/fresh.jpg" alt="" width="300px">
+                <h3>Fresh and tasty</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, illo. </p>
+                <a href="#" class="btn"> read more</a>
+            </div>
+
+            <div class="box">
+                <img src="./img/cart/free delevery.jpg" alt="" width="300px">
+                <h3>Free dilevrry</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, illo. </p>
+                <a href="#" class="btn"> read more</a>
+            </div>
+
+            <div class="box">
+                <img src="./img/cart/payment.jpg" alt="" width="300px">
+                <h3>Easy payments</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, illo. </p>
+                <a href="#" class="btn"> read more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- features section end -->
+
+
+    <!-- Product section starts  -->
+
+    <section class="products" id="products">
+        <h1 class="heading">our <span>products</span></h1>
+        <div class="swiper mySwiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="./img/products/Choclate-paan.jpeg" alt="">
+                    <h3>Choclate-paan </h3>
+                    <div class="price"> $50/- - 100/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/products/coconut-paan.jpg" alt="">
+                    <h3>coconut Paan</h3>
+                    <div class="price"> $50/- - 100/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./img/products/Fire-paan.jpeg" alt="">
+                    <h3>Fire Paan</h3>
+                    <div class="price"> $50/- - 100/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./img/products/Ice-paan.jpeg" alt="">
+                    <h3>Ice Paan</h3>
+                    <div class="price"> $50/- - 100/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./img/products/mango-paan.jpg" alt="">
+                    <h3>Mango Paan</h3>
+                    <div class="price"> $50/- - 100/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./img/products/Masala-paan.jpeg" alt="">
+                    <h3>Masala Paan</h3>
+                    <div class="price"> $50/- - 100/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="swiper mySwiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="./img/products/orange-paan.jpg" alt="">
+                    <h3>Orange Paan</h3>
+                    <div class="price"> $50/- - 100/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./img/products/rajawadi-paan.png" alt="">
+                    <h3>Rajawadi Paan</h3>
+                    <div class="price"> $50/- - 100/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./img/products/silverpan.png" alt="">
+                    <h3>Silver Paan</h3>
+                    <div class="price"> $50/- - 100/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./img/products/strawberry-paan.jpg" alt="">
+                    <h3>Strawberry Paan</h3>
+                    <div class="price"> $50/- - 100/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./img/products/mix-flavour-paan.jpg" alt="">
+                    <h3>Mix Paan</h3>
+                    <div class="price"> $50/- - 100/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./img/products/mix-flavour-paan2.jpg" alt="">
+                    <h3>Tiranga kulfi Paan</h3>
+                    <div class="price"> $50/- - 100/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Product section ends  -->
+
+    <!-- Review section start -->
+    <section class="review" id="review">
+        <h1 class="heading">Customer's <span>review</span></h1>
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+                <div class=" swiper-slide box">
+                    <img src="img/products/tarasingh.jpeg" alt="">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque doloribus inventore error
+                        quibusdam officia magni quisquam iste tempore optio iure. </p>
+                    <h3>Tarasingh </h3>
+                    <div class="starts">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class=" swiper-slide box">
+                    <img src="img/products/ravi bhope.jpeg" alt="">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque doloribus inventore error
+                        quibusdam officia magni quisquam iste tempore optio iure. </p>
+                    <h3>Ravi bhope </h3>
+                    <div class="starts">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <img src="img/products/sarfu.jpeg" alt="">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque doloribus inventore error
+                        quibusdam officia magni quisquam iste tempore optio iure. </p>
+                    <h3>Sarfu sheikh </h3>
+                    <div class="starts">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <img src="img/products/javed.jpeg" alt="">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque doloribus inventore error
+                        quibusdam officia magni quisquam iste tempore optio iure. </p>
+                    <h3>Javed khan </h3>
+                    <div class="starts">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <img src="img/products/pawan.jpeg" alt="">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque doloribus inventore error
+                        quibusdam officia magni quisquam iste tempore optio iure. </p>
+                    <h3>Pawan jain </h3>
+                    <div class="starts">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+    <!-- Review section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Navrang <i class="fas fa-shopping-basket"></i></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptas.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+91 9826045343</a>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+91 9826045343</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i>navrangpaan@gmail.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>Dehri, Kukshi - 454221</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>home</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>about us</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>products</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>contact us</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>Franchise</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email here..." class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="./img/payment1.png" class="payment-img" alt="">
+            </div>
+        </div>
+
+        <div class="credit">created by <span>webdev kenny</span> | all right reserved.</div>
+
+
+
+    </section>
+
+
+
+    <!-- footer section ends  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- swiper js file  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- custom js file  -->
+    <script src="./js/script.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
